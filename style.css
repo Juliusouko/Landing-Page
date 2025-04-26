@@ -69,11 +69,10 @@ margin-left: 100px;
 /* Finish styling the first section*/
 
 .second {
-    background: antiquewhite;
     height: 500px;
 }
 
-h3 {
+.second >.h3 >h3 {
     text-align: center;
     justify-content: center;
     font-size: 36px;
@@ -100,3 +99,59 @@ h3 {
 
 /* Complete styling the second section */
 
+.third {
+    background: silver;
+    height: 200px;
+}
+
+.third > div > p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.span {
+    float: right;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* complete third section*/
+
+.fourth {
+    height: 200px;
+    padding: 30px;
+}
+
+.signup {
+    border: 3px solid #3882F6;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    color: white;
+}
+
+.signup > div> button {
+    width: 150%;
+    color: white;
+    background: #3882F6;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* The fourth section */
+
+.footer {
+    background: #1F2937;
+    height: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
