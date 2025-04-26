@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.first {
+    background:#1F2937;
+    color: white;
+    height: 500px;
+}
+
+.first > div > h1, .links {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.image-container {
+    border: 1px solid silver;
+    background: silver;
+    height: 250px;
+    width: 500px;
+}
+
+.image-container > p{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.h2{
+margin-left: 100px;
+}
+
+.contain > .h2 > p {
+    width: 50%;
+}
+
+.h2 > h2, p, button{
+    padding: 15px;
+}
+
+.h2 > button {
+    width: 20%;
+    background: #3882F6;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Finish styling the first section*/
